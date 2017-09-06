@@ -1,0 +1,133 @@
+html{
+width: 100%;
+heigh:100%;
+}
+body{
+width: 100%
+heigh:100%;
+}
+.first{
+padding-left: 3%;
+}
+.row{
+padding: 0;
+}
+.color{
+background-color: #50BDF0;
+}
+.icon{
+display: inline-block;
+background-color: #50BDF0;
+text-align: right;
+position: absolute;
+right: 20px;
+height: 30px;
+width: 65px;
+}
+.picture{
+border-radius: 50%;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: #50BDF0;
+}
+ul{
+list-style-type: none;
+display: inline-block;
+}
+li{
+display: inline-block;
+padding-right: 15px;
+color: white;
+}
+.logo{
+border-radius: 50%;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: white;
+}
+.logo1{
+background: none;
+border: none;
+padding: 0;
+color: white;
+}
+.style{
+position:absolute;
+right: 20px;
+}
+.normal{
+display: block;
+padding-right: 15px;
+color: #0371A4;
+line-height: 3;
+}
+.account{
+width: 40px;
+height: 40px;
+background: #ced5d8;
+border-radius: 50%;
+display: inline-block;
+
+}
+.name{
+color: #50BDF0;
+font-size: 14px;
+}
+.status{
+color: #000000;
+font-size: 12px;
+}
+.about{
+display: inline-block;
+}
+.box{
+display: block;
+background: #EFF5F9;
+height: 80px;
+padding: 15px 0 15px 30px;
+}
+.logo2{
+background: none;
+border: none;
+padding: 0;
+color:  #000000;
+position: absolute;
+right: 25px;
+}
+.social{
+margin-left: auto;
+margin-right: auto;
+}
+.properties{
+display: inline-block;
+}
+.square{
+border: solid;
+border-color: #bbb8b8;
+position: absolute;
+left: 50%;
+top: 30%;
+width: 80px;
+height: 160px;
+opacity: 0.5;
+}
+.text{
+background: #F6FAFC;
+border: #F2F6F8;
+text-align: center;
+}
+.choise{
+background: none;
+border: none;
+display: block;
+}
+.button-type{
+background: #50BDF0;
+display: block;
+}
+.tittle{
+color: #50BDF0;
+text-align: center;
+}
