@@ -131,6 +131,7 @@ li{
 .content-menu-left{
   margin-left:50px;
   margin-top: 50px; 
+  min-height: 700px;
 }
 .content-menu-left:hover{
   color:#d82c0c !important;
@@ -184,7 +185,7 @@ li{
 .margine-right_line{
   margin-right: 10px;
 } 
-.hover-red:hover{
+.hover-red:hover *{
   color:#ef5d5d !important;
 }
 .red{
@@ -249,9 +250,6 @@ li{
   background: #ffffff;
 }
 .main{
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
   background: #f7f9fa;
   position: relative;
 }
@@ -269,9 +267,10 @@ li{
 .choise{
   background: none;
   border: none;
-  margin-left: 301px;
-  font-size: 14pt;
+  margin-left: 313px;
+  font-size: 19.69pt;
   color: #2b4a62;
+  font-weight: bold;
 }
 .button-type{
   background: #619fd1;
@@ -283,11 +282,6 @@ li{
   font-size: 18pt;
   margin-top: 20px;
   font-family: 'Lato', sans-serif;
-}
-.center-text{
-  margin-right: auto;
-  margin-left: auto;
-  text-align: left;
 }
 .tittle{
   color: #62a0d1;
@@ -305,11 +299,7 @@ li{
   font-family: 'Raleway', sans-serif;
 }
 .container-center{
-  margin-left: auto;
-  margin-right: auto;
   display: inline-block;
-  /* justify-content: center; */
-  /* align-content: center; */
   position: relative;
 }
 .triangle{
@@ -385,6 +375,6 @@ li{
   align-items: center;
 }
 .layer-position{
-  position: absolute;
+  position: relative;
   z-index: 2
 }
