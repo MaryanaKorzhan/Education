@@ -103,11 +103,15 @@ li{
   background: white;
   margin-right: 6px;
 }
+
 .logo-button{
   background: none;
   border: none;
   padding: 0;
   color: white;
+} 
+.logo-button:hover{
+  color:#ef5d5d !important;
 }
 .position-right{
   position: absolute;
@@ -120,6 +124,9 @@ li{
 }
 .icon-padding-right{
   padding-right: 15px;
+}
+.icon-padding-right:hover{
+  color:#d82c0c !important;: 
 }
 .account{
   width: 80px;
