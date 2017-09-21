@@ -64,6 +64,9 @@ div{
   font-size: 16px;
   margin-bottom: 10px;
 }
+.icon-size:hover{
+  color:#d82c0c !important;
+}
 .container-menu{
   display: inline-block;
   border-right: solid 37px #619fd1;
@@ -168,6 +171,8 @@ li{
   justify-content: flex-start;
   align-items: center;
   display: flex;
+  border-top: solid 2px #EFF5F9;
+  border-bottom: solid 2px #EFF5F9;
 }
 .account-bottom{
   background: none;
@@ -209,7 +214,7 @@ li{
   margin-left: auto;
   margin-right: auto;
   height: 180px;
-  border-top: solid 1px #EFF5F9;
+  border-top: solid 2px #EFF5F9;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -262,6 +267,7 @@ li{
   background: #F8F9FB;
   position: relative;
   vertical-align: top;
+  border-left: solid 2px #EFF5F9;
 }
 .square{
   border: solid 8px;
@@ -429,3 +435,20 @@ z-index: 100
 }
 .carousel-indicators li{display:block; margin-bottom:5px; border:1px solid #E7E7E7; }
 .carousel-indicators li.active{margin-bottom:5px; background:#619fd1;}
+.content-align{
+  height: 100%;
+  width: 100%;
+  display: table;
+  }
+  .view {
+  width: 15px;
+  height: 15px;
+  display: block !important;
+  color: #e7e7e7 !important;
+  list-style-type: none;
+}
+  .line-style{
+  border-left: solid 1px;
+  border-color: #e7e7e7;
+  margin-left: 8px;
+}
