@@ -37,6 +37,9 @@ div{
   font-weight: bold;
   font-family: 'Lusitana', serif;
 }
+.left-top-cell *{
+vertical-align: middle;
+}
 .right-top-cell{
   background: #619fd1;
   vertical-align: middle;
@@ -80,7 +83,6 @@ div{
   height: 60px;
   margin-left: 60px;
   display: inline-block;  
-  vertical-align: middle;     
 }
 .fixed *{
   vertical-align: middle;
